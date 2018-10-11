@@ -1,0 +1,3 @@
+﻿dotnet ef --startup-project ../TimeShare.Api migrations add "InitialCreate" -o "Data\Migrations" -c TimeShareContext
+
+dotnet ef --startup-project ../TimeShare.Api migrations add "InitialCreate" -o "..\TimeShare.Api\Data\Migrations" -c TimeShareContext
